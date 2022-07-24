@@ -1,18 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>My Recipe</title>
+    <link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="/docs/5.0/assets/css/docs.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
+
 <body>
+    <header class="navbar navbar-expand justify-content-end bd-navbar">
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+                <form class="d-flex">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <a href="login/login.template.client.html" class="btn btn-lx btn-success">Sign In</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="view" style="background-image: url('./img/picnic2.jpg'); background-size: cover; background-position: center center; height: 850px;">
+        <!-- Mask & flexbox options-->
+        <div class="mask rgba-black-light align-items-center">
+            <!-- Content -->
+            <div class="container">
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-md-12 mb-4 white-text text-center">
+                        <h1 class="h1-reponsive white-text font-weight-bold mb-0 pt-md-5 pt-5 wow" data-wow-delay="0.3s"><strong>Welcome to My Recipe</strong></h1>
+                        </br>
+                        <a href="/recipe" class="btn btn-lg btn-success position-relative">View All Recipe</a>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </div>
+            <!-- Content -->
+        </div>
+    </div>
+
+<!--
 <div class="container">
 
-</div>
+    <img src="./img/picnic.jpg" class="img-fluid" alt="...">
+    <div class="row">
+        <div class="col">
+            <div class="position-relative" >
+                <div class="position-absolute top-0 end-0">
+                    <a href="login/login.template.client.html" class="btn btn-sm btn-success">Sign In</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<div id="landing-header">
-    <h1> Welcome to My Recipe</h1>
-    <a href="/recipe" class="btn btn-lg btn-success">View All Recipe</a>
+    </br>
+    </br>
+    <div class="row">
+        <div class="col">
+            <div class="position-relative" id="landing-header">
+                <div class="position-absolute top-50 start-50 translate-middle">
+                    <h1> Welcome to My Recipe</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    </br>
+    </br>
+
+    <div class="row">
+        <div class="col">
+            <div class="position-relative" >
+                <div class="position-absolute top-50 start-50 translate-middle">
+                    <a href="/recipe" class="btn btn-lg btn-success position-relative">View All Recipe</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </div>
+-->
+
 </body>
 </html>
